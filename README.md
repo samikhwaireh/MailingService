@@ -2,6 +2,9 @@
 
 The Email Service Wrapper is a backend API that provides a unified interface to send emails using various email service providers. It allows developers to integrate their applications with popular email services such as SMTP, SendGrid, Amazon SES, SparkPost, and Postmark. This project serves as a wrapper around these services, providing a simplified and consistent way to send emails regardless of the underlying provider.
 
+## Live API Demo
+[Swagger Link](https://test-profile.hajatee.com/swagger/index.html)
+
 ## Features
 
 - Send emails using SMTP, SendGrid, Amazon SES, SparkPost, or Postmark.
