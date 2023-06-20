@@ -37,11 +37,11 @@ cd MailingService
 3. Build the project:
 dotnet build
 4. Configure the email service providers:
-   - SMTP: Update the SMTP server host and port in the `appsettings.json` file.
-   - SendGrid: Set the SendGrid API key in the `appsettings.json` file.
-   - Amazon SES: Set the AWS access key and secret key in the `appsettings.json` file.
-   - SparkPost: Set the SparkPost API key in the `appsettings.json` file.
-   - Postmark: Set the Postmark server token in the `appsettings.json` file.
+   - SMTP: Update the SMTP server host and port in the `key` in reqeust header.
+   - SendGrid: Set the SendGrid API key in the `key` in reqeust header.
+   - Amazon SES: Set the `AWS access key` and `secret key` in the key in reqeust header.
+   - SparkPost: Set the SparkPost API key in the `key` in reqeust header.
+   - Postmark: Set the Postmark server token in the `key` in reqeust header.
 5. Run the application:
 dotnet run
 
